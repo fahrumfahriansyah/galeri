@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+  	
+
+}
+body{
+	background-color: white;
+}
+.container1{
+	margin: 50px;
+}
+.boxJudul{
+	margin: 50px auto;
+	width: 700px;
+	height: 80px;
+	background: salmon;
+	border-radius: 8% 8% 8% 8%;
+}
+.judul{
+	font-family:sans-serif;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 0px 8px 4px black;
+}
+.container1 h4{
+  margin-left: 120px;
+}
+
+.list li{
+	margin: 10px;
+	font-size: 20px;
+	margin-left: 150px;	
+}
+.list a{
+	color: black;
+	text-decoration: none;
+}
+.container{
+  width: 600px;
+  margin: 10px auto;
+  border: 1px solid black;
+  line-height: 0;
+}
+
+.thumb{
+	width: 200px;
+	height: 150px;
+	border: 1px solid white;
+	float: left;
+	box-sizing: border-box;
+  border: 1px solid black;
+}
+.thumb:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+.jumbo{
+	width: 600px;
+	border-bottom: 1px solid black;
+	position: relative;
+	cursor: pointer;
+}
+
+.tombol{
+	color: black;
+}
+.hapus{
+	position: absolute;
+	font-size: 50px;
+	margin: 40px;
+	margin-left: 540px;
+	cursor: pointer;
+	z-index: 1;
+	text-decoration: none;
+	
+}
+.anim{
+	animation: anim 2s ease-in-out;
+}
+
+@keyframes anim{
+	0%{
+		color: blue;
+	}
+	
+	50%{
+		transform: rotate(360deg);
+	}
+	100%{
+		color: red;
+	}
+}
